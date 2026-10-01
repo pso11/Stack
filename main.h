@@ -12,14 +12,19 @@
 
 enum error_t
 {
-    OK                       = 0,
-    NULL_POINTER             = 1,
-    OUT_OF_BOUNDS            = 2,
-    NULL_POINTER_FROM_CALLOC = 3,
-    NO_STACK_INITTED         = 4,
-    BAD_ALLOCATION           = 5,
-    WRONG_CAPACITY           = 6,
-    WRONG_SIZE               = 7
+    OK                             = 0,
+    NULL_POINTER                   = 1,
+    OUT_OF_BOUNDS                  = 2,
+    NULL_POINTER_FROM_CALLOC       = 3,
+    NO_STACK_INITTED               = 4,
+    BAD_ALLOCATION                 = 5,
+    WRONG_CAPACITY                 = 6,
+    WRONG_SIZE                     = 7,
+    INVALID_LEFT_STRUCTURE_CANARY  = 8,
+    INVALID_RIGHT_STRUCTURE_CANARY = 9,
+    INVALID_LEFT_STACK_CANARY      = 10,
+    INVALID_RIGHT_STACK_CANARY     = 11
+
 };
 
 #ifdef STACK_DEBUG
@@ -68,9 +73,12 @@ struct error
 
 struct stack_t
 {
+    unsigned long long structure_canary_left = 0xDEADBEEF;
     stack_elem_t* data;
     int capacity;
     int size;
+    stack_elem_t stack_canary = 0xBA0BAB;
+    unsigned long long structure_canary_right = 0xDEADBEEF;
 };
 
 #define INCREMENT 2
