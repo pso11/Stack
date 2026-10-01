@@ -1,1914 +1,24 @@
-Error code [2]: in file main.cpp, function stack_destroy, line 191
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[00D13E40]
-{
-[0] =1.#QNAN
-[1] =1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_destroy, line 191
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[00B63E40]
-{
-[0] =1.#QNAN
-[1] =1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_destroy, line 193
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[00C715D8]
-{
-[0] =1.#QNAN
-[1] =10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[00C515D8]
-{
-[0] =105
-[1] =10
-[2] =10
-[3] =1.#QNAN
-[4] =1.#QNAN
-[5] =1.#QNAN
-[6] =1.#QNAN
-[7] =1.#QNAN
-[8] =1.#QNAN
-[9] =1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[00C915D8]
-{
-[0] =105
-[1] =10
-[2] =10
-[3] =1.#QNAN
-[4] =1.#QNAN
-[5] =1.#QNAN
-[6] =1.#QNAN
-[7] =1.#QNAN
-[8] =1.#QNAN
-[9] =1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[00C915D8]
-{
-[0] =105
-[1] =10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [2]
-data[00B815D8]
-{
-[0] =105
-[1] =10
-[2] =1.#QNAN
-[3] =1.#QNAN
-[4] =1.#QNAN
-[5] =1.#QNAN
-[6] =1.#QNAN
-[7] =1.#QNAN
-[8] =1.#QNAN
-[9] =1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[00B815D8]
-{
-[0] =105
-[1] =1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[00D915D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[00D815D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [3]
-size = [2]
-data[00D815D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[00D815D8]
-{
-[0] = 105
-[1] = 10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[00BE15D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [3]
-size = [2]
-data[00BE15D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[00BE15D8]
-{
-[0] = 105
-[1] = 10
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[00BE15D8]
-{
-[0] = 105
-[1] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [3]
-data[008815D8]
-{
-[0] = 105
-[1] = 10
-[2] = 10
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [3]
-size = [2]
-data[008815D8]
-{
-[0] = 105
-[1] = 10
-[2] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[008815D8]
-{
-[0] = 105
-[1] = 1.#QNAN
-}
-Error code [0]: in file (null), function (null), line 0
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[008815D8]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 130
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [-1]
-data[00E115D8]
-{
-[0] =1.#QNAN
-[1] =1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 130
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[009215D8]
-{
-[0] =1.#QNAN
-[1] =1.#QNAN
-[2] =1.#QNAN
-[3] =1.#QNAN
-[4] =1.#QNAN
-[5] =1.#QNAN
-[6] =1.#QNAN
-[7] =1.#QNAN
-[8] =1.#QNAN
-[9] =1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00CA15D8]
-{
-[0] =1.#QNAN
-[1] =1.#QNAN
-[2] =1.#QNAN
-[3] =1.#QNAN
-[4] =1.#QNAN
-[5] =1.#QNAN
-[6] =1.#QNAN
-[7] =1.#QNAN
-[8] =1.#QNAN
-[9] =1.#QNAN
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00BE15D8]
-{
-[0] =1.#QNANPOISON
-[1] =1.#QNANPOISON
-[2] =1.#QNANPOISON
-[3] =1.#QNANPOISON
-[4] =1.#QNANPOISON
-[5] =1.#QNANPOISON
-[6] =1.#QNANPOISON
-[7] =1.#QNANPOISON
-[8] =1.#QNANPOISON
-[9] =1.#QNANPOISON
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[008E15D8]
-{
-[0] =1.#QNAN[31m   POISON
-[1] =1.#QNAN[31m   POISON
-[2] =1.#QNAN[31m   POISON
-[3] =1.#QNAN[31m   POISON
-[4] =1.#QNAN[31m   POISON
-[5] =1.#QNAN[31m   POISON
-[6] =1.#QNAN[31m   POISON
-[7] =1.#QNAN[31m   POISON
-[8] =1.#QNAN[31m   POISON
-[9] =1.#QNAN[31m   POISON
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00C215D8]
-{
-[0] =1.#QNAN[31m   POISON
-[1] =1.#QNAN[31m   POISON
-[2] =1.#QNAN[31m   POISON
-[3] =1.#QNAN[31m   POISON
-[4] =1.#QNAN[31m   POISON
-[5] =1.#QNAN[31m   POISON
-[6] =1.#QNAN[31m   POISON
-[7] =1.#QNAN[31m   POISON
-[8] =1.#QNAN[31m   POISON
-[9] =1.#QNAN[31m   POISON
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00CD15D8]
-{
-[0] =1.#QNAN[31mPOISON
-[1] =1.#QNAN[31mPOISON
-[2] =1.#QNAN[31mPOISON
-[3] =1.#QNAN[31mPOISON
-[4] =1.#QNAN[31mPOISON
-[5] =1.#QNAN[31mPOISON
-[6] =1.#QNAN[31mPOISON
-[7] =1.#QNAN[31mPOISON
-[8] =1.#QNAN[31mPOISON
-[9] =1.#QNAN[31mPOISON
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00CC15D8]
-{
-[0] =1.#QNAN<<POISON>>
-[1] =1.#QNAN<<POISON>>
-[2] =1.#QNAN<<POISON>>
-[3] =1.#QNAN<<POISON>>
-[4] =1.#QNAN<<POISON>>
-[5] =1.#QNAN<<POISON>>
-[6] =1.#QNAN<<POISON>>
-[7] =1.#QNAN<<POISON>>
-[8] =1.#QNAN<<POISON>>
-[9] =1.#QNAN<<POISON>>
-}
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[008E15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-               NEW TRY
-Error code [1]: in file main.cpp, function resize_down, line 186
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [1]
-data[00C315D8]
-{
-}
-
-               NEW TRY
-Error code [1]: in file main.cpp, function resize_down, line 186
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [1]
-data[00C215D8]
-{
-}
-
-               NEW TRY
-
-Error code [1]: in file main.cpp, function resize_down, line 186
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [1]
-data[00C515D8]
-{
-}
-
-               NEW TRY
-
-Error code [2]: in file main.cpp, function stack_veryficator, line 135
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00DA15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-Error code [2]: in file main.cpp, function stack_veryficator, line 134
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00C615D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-Error code [2]: in file main.cpp, function stack_veryficator, line 134
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00BB15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 105
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 10
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 105
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 10
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 10
-[1] = 1.#QNAN
-}
-PRINTING
-stack_t stk1[00000000] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00D315D8]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [1]
-data[00D315D8]
-{
-[0] = 105
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00D315D8]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [1]
-data[00D315D8]
-{
-[0] = 10
-[1] = 1.#QNAN
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [2]
-data[00D315D8]
-{
-[0] = 10
-[1] = 10
-[2] = 1.#QNAN
-[3] = 1.#QNAN
-[4] = 1.#QNAN
-[5] = 1.#QNAN
-[6] = 1.#QNAN
-[7] = 1.#QNAN
-[8] = 1.#QNAN
-[9] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [1]
-data[00D315D8]
-{
-[0] = 10
-[1] = 1.#QNAN
-}
-
-PRINTING
-stack_t stk1[0064FEE0] created by main():
-capacity = [2]
-size = [0]
-data[00D315D8]
-{
-[0] = 1.#QNAN
-[1] = 1.#QNAN
-}
-
-               NEW TRY
-
-Error code [1]: in file main.cpp, function stack_veryficator, line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-Error code [1]: in file main.cpp, function stack_veryficator, line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-Error code [1]: in file main.cpp, function stack_veryficator, line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-Error code [1]: in file main.cpp, function stack_veryficator, line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code [1]: in file main.cpp, function stack_veryficator, line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_veryficator
-line 136
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_veryficator
-line 136
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_init
-line 67
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [0]
-data[00000000]
-{
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_push
-line 106
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to undertand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_push
-line 104
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_push
-line 105
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00000000]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_push
-line 105
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[007815D8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_push
-line 105
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00D015D8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [1]
-in file: main.cpp
-function: stack_init
-line 65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00C615B8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file: main.cpp
-function: stack_init
-line 65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00C015B8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file: main.cpp
-function: stack_init
-line 65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00BB15B8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file: main.cpp
-function: stack_init
-line 65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00C215B8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:   main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00E515B8]
-{
-}
-
-               NEW TRY
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00D315B8]
-{
-}
-
-               NEW TRY
-
-You have error? read all information down
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00D115B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00C215B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00D515B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
- YOUR STACK:
-data[008D15B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-
-YOUR STACK:
-
-data[00D815B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-
-
-YOUR STACK:
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-
-data[009415B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-
-YOUR STACK:
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-
-data[00CC15B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:   65
-
-
-YOUR STACK:
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00CB15B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_init
-line:       65
-
-
-YOUR STACK:
-stack_t stk1[0064FEE0] created by main():
-capacity = [0]
-size = [0]
-data[00D515B8]
-{
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_push
-line:       105
-
-
-YOUR STACK:
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [11]
-data[008C15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       123
-
-
-YOUR STACK: 
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [11]
-data[00C015D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it. Pay ATTENTION that capacity is always bigger then size
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       123
-
-
-YOUR STACK: 
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [11]
-data[00C015D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       123
-
-
-YOUR STACK: 
-stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [11]
-data[00BA15D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-               NEW TRY
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       124
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00D415D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-
-MEET ERROR IN YOUR PROGRAMM
-
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00C915D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-
-MEET ERROR IN YOUR PROGRAMM
-
-**********You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00C915D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-
-END OF OUR MESSAGE
-
-**********
-**********
-
-MEET ERROR IN YOUR PROGRAMM
-
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00C515D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-
-END OF OUR MESSAGE
-
-**********
-**********
-MEET ERROR IN YOUR PROGRAMM
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[008615D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-END OF OUR MESSAGE
-**********
-**********
-MEET ERROR IN YOUR PROGRAMM
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00C915D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-END OF OUR MESSAGE
-**********
-
-**********
-MEET ERROR IN YOUR PROGRAMM
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00D115D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-END OF OUR MESSAGE
-**********
-
-**********
-MEET ERROR IN YOUR PROGRAMM
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       125
-
-
-YOUR STACK: 
-stack_t stk1[0064FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[00CD15D8]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-END OF OUR MESSAGE
-**********
-
-**********
-MEET ERROR IN YOUR PROGRAMM
-**********
-You have ERROR read all information down
-
-error [1] = NULL_POINTER  -> maybe calloc didn't work, realloc didn't find place oy there's an imposter
-error [2] = OUT_OF_BOUNDS -> check all signs in formulas
-PLEASE check line number and follow it to understand error and fix it.
-Pay ATTENTION that capacity is always bigger then size and they're plus size values
-
-Error code: [2]
-in file:    main.cpp
-function:   stack_pop
-line:       129
-
-
-YOUR STACK: 
-stack_t stk1[0079FEB8] created by main():
-capacity = [10]
-size = [168430090]
-data[01301928]
-{
-[0] =105
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-**********
-END OF OUR MESSAGE
-**********
-*   
-MEET 
-
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*   
-MEET 
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00CD15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-*   
-MEET 
-
-END OF OUR MESSAGE
-*   
-MEET 
-***************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-***************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00BC15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-***************
-END OF OUR MESSAGE
-***************
-***************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[009515D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-***************
-END OF OUR MESSAGE
-*************************
-***************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00DE15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-***************
-END OF OUR MESSAGE
-*************************
-
-***************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[008A15D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-***************
-END OF OUR MESSAGE
-*************************
-
 
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
+Error code: [11] : <CU-CU-CU Something wrong with your right stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
 
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
-size = [-1]
-data[00BB15D8]
+size = [0]
+data [00DB15D8]
 {
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_pop> in line: [134]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [-1]
-data[00D315D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
+[0] = [1.21927e+007]
+[1] = [0]
+[2] = [0]
+[3] = [0]
+[4] = [0]
+[5] = [0]
+[6] = [0]
+[7] = [0]
+[8] = [0]
+[9] = [0]
 }
 
 *************************
@@ -1919,39 +29,12 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [108]
+Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [88]
 
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
-size = [168430090]
-data[00D215D8]
-{
-[0] =1.#QNAN     <<POISON>>
-[1] =1.#QNAN     <<POISON>>
-[2] =1.#QNAN     <<POISON>>
-[3] =1.#QNAN     <<POISON>>
-[4] =1.#QNAN     <<POISON>>
-[5] =1.#QNAN     <<POISON>>
-[6] =1.#QNAN     <<POISON>>
-[7] =1.#QNAN     <<POISON>>
-[8] =1.#QNAN     <<POISON>>
-[9] =1.#QNAN     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [108]
-
-YOUR STACK: stack_t stk1[0064FEE0] created by main():
-capacity = [10]
-size = [168430090]
-data[00D815D8]
+size = [0]
+data [00D215D8]
 {
 [0] = [1.#QNAN]     <<POISON>>
 [1] = [1.#QNAN]     <<POISON>>
@@ -1973,12 +56,12 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [108]
+Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t stk1 [0064FEE0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
-size = [168430090]
-data [00D315D8]
+size = [-1]
+data [007715D8]
 {
 [0] = [1.#QNAN]     <<POISON>>
 [1] = [1.#QNAN]     <<POISON>>
@@ -2000,12 +83,12 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [108]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t stk1 [0064FEE0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
-size = [168430090]
-data [00C015D8]
+size = [-1]
+data [008115D8]
 {
 [0] = [1.#QNAN]     <<POISON>>
 [1] = [1.#QNAN]     <<POISON>>
@@ -2027,92 +110,11 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [102]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t stk1 [0064FEE0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
-size = [168430090]
-data [00DA15D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [102]
-
-YOUR STACK: stack_t stk1 [0064FEE0] created by main():
-capacity = [10]
-size = [168430090]
-data [00C615D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [2] : <Index out of range -> memory leak> in file: <main.cpp> in function: <stack_push> in line: [102]
-
-YOUR STACK: stack_t stk1 [0079FEE0] created by main():
-capacity = [10]
-size = [168430090]
-data [008B1928]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_push> in line: [100]
-
-YOUR STACK: stack_t stk1 [0064FEDC] created by main():
-capacity = [10]
-size = [168430090]
+size = [-1]
 data [00CC15D8]
 {
 [0] = [1.#QNAN]     <<POISON>>
@@ -2125,6 +127,7 @@ data [00CC15D8]
 [7] = [1.#QNAN]     <<POISON>>
 [8] = [1.#QNAN]     <<POISON>>
 [9] = [1.#QNAN]     <<POISON>>
+[10] = [1.#QNAN]     <<POISON>>
 }
 
 *************************
@@ -2135,120 +138,12 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_push> in line: [103]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t stk1 [0064FEF0] created by main():
-capacity = [10]
-size = [168430090]
-data [00D115D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_push> in line: [101]
-
-YOUR STACK: stack_t stk1 [0064FEF0] created by main.cpp:
-capacity = [10]
-size = [168430090]
-data [00D015D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_push> in line: [101]
-
-YOUR STACK: stack_t stk1 [0064FEF0] created by main:
-capacity = [10]
-size = [168430090]
-data [00D915D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_push()> in line: [101]
-
-YOUR STACK: stack_t stk1 [0064FEF0] created by main():
-capacity = [10]
-size = [168430090]
-data [00D315D8]
-{
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [128]
-
-YOUR STACK: stack_t stk1 [0064FEF0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
 size = [-1]
-data [00D315D8]
+data [00B915D8]
 {
 [0] = [1.#QNAN]     <<POISON>>
 [1] = [1.#QNAN]     <<POISON>>
@@ -2260,6 +155,8 @@ data [00D315D8]
 [7] = [1.#QNAN]     <<POISON>>
 [8] = [1.#QNAN]     <<POISON>>
 [9] = [1.#QNAN]     <<POISON>>
+[10] = [1.#QNAN]     <<POISON>>
+[11] = [1.21927e+007]
 }
 
 *************************
@@ -2270,23 +167,25 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [128]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t stk1 [0064FEF0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
 size = [-1]
-data [00CD15D8]
+data [00C915D8]
 {
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
+[0]  = [1.#QNAN]     <<POISON>>
+[1]  = [1.#QNAN]     <<POISON>>
+[2]  = [1.#QNAN]     <<POISON>>
+[3]  = [1.#QNAN]     <<POISON>>
+[4]  = [1.#QNAN]     <<POISON>>
+[5]  = [1.#QNAN]     <<POISON>>
+[6]  = [1.#QNAN]     <<POISON>>
+[7]  = [1.#QNAN]     <<POISON>>
+[8]  = [1.#QNAN]     <<POISON>>
+[9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]
 }
 
 *************************
@@ -2297,23 +196,25 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [128]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t &stk1 = [0064FEF0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
 size = [-1]
 data [00C215D8]
 {
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
+[0  ]  = [1.#QNAN]     <<POISON>>
+[1  ]  = [1.#QNAN]     <<POISON>>
+[2  ]  = [1.#QNAN]     <<POISON>>
+[3  ]  = [1.#QNAN]     <<POISON>>
+[4  ]  = [1.#QNAN]     <<POISON>>
+[5  ]  = [1.#QNAN]     <<POISON>>
+[6  ]  = [1.#QNAN]     <<POISON>>
+[7  ]  = [1.#QNAN]     <<POISON>>
+[8  ]  = [1.#QNAN]     <<POISON>>
+[9  ]  = [1.#QNAN]     <<POISON>>
+[10 ]  = [1.#QNAN]     <<POISON>>
+[11 ]  = [1.21927e+007]
 }
 
 *************************
@@ -2324,23 +225,261 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [128]
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
 
-YOUR STACK: stack_t &stk1 = [0064FEF0] created by main():
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
 capacity = [10]
 size = [-1]
-data [00B615D8]
+data [00B915D8]
 {
-[0] = [1.#QNAN]     <<POISON>>
-[1] = [1.#QNAN]     <<POISON>>
-[2] = [1.#QNAN]     <<POISON>>
-[3] = [1.#QNAN]     <<POISON>>
-[4] = [1.#QNAN]     <<POISON>>
-[5] = [1.#QNAN]     <<POISON>>
-[6] = [1.#QNAN]     <<POISON>>
-[7] = [1.#QNAN]     <<POISON>>
-[8] = [1.#QNAN]     <<POISON>>
-[9] = [1.#QNAN]     <<POISON>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [133]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [-1]
+data [00C915D8]
+{
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [132]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [-1]
+data [00CA15D8]
+{
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [132]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [-1]
+data [008115D8]
+{
+[-1]  = [3.85434e-270]
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [123]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [168430090]
+data [00CC15D8]
+{
+[-1]  = [3.88114e-270]
+[ 0]  = [1.21927e+007]     <<CANARY>>
+[ 1]  = [105]
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [123]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [168430090]
+data [00D915D8]
+{
+[-1]  = [1.21927e+007]
+[ 0]  = [105]     <<CANARY>>
+[ 1]  = [1.#QNAN]
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.21927e+007]     <<POISON>>
+[11]  = [6.23446e-310]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [123]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [168430090]
+data [00D215D8]
+{
+[-1]  = [3.82724e-270]
+[ 0]  = [1.21927e+007]     <<CANARY>>
+[ 1]  = [105]
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.#QNAN]     <<POISON>>
+[11]  = [1.21927e+007]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [123]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [168430090]
+data [00C915D8]
+{
+[-1]  = [1.21927e+007]     <<CANARY>>
+[ 0]  = [105]
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.21927e+007]     <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [7] : <Wrong value of size: more than capacity \ less than ZERO> in file: <main.cpp> in function: <stack_pop()> in line: [123]
+
+YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+capacity = [10]
+size = [168430090]
+&data = [00C615D8]
+{
+[-1]  = [1.21927e+007]     <<CANARY>>
+[ 0]  = [105]
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = [1.21927e+007]     <<CANARY>>
 }
 
 *************************
