@@ -2,887 +2,18 @@
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [11] : <CU-CU-CU Something wrong with your right stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
 
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
 capacity = [10]
 size = [0]
-&data = [00F015D8]
-{
-[-1]  = 18472267805232043           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 18472267805232043           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00BD15D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [66]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00E615D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [11] : <CU-CU-CU Something wrong with your right stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [66]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [009515D8]
-{
-[-1]  = 18472280690133931           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [11] : <CU-CU-CU Something wrong with your right stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [66]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00B615D8]
-{
-[-1]  = 18472280690133931           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [124]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00BA15D8]
-{
-[-1]  = 18472280846371338           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [123]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00C815D8]
-{
-[-1]  = 18472280846371338           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [123]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00BF15D8]
-{
-[-1]  = 18472280846371338           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00BC15D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00C015D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [123]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [007415D8]
-{
-[-1]  = 18472280846371338           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472280690133931           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00C615D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00E215D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [11] : <CU-CU-CU Something wrong with your right stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00D015D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00D015D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [65]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [007515D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_init()> in line: [66]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00D415D8]
-{
-[-1]  = 4712807507444105216           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = 4712807507444105216           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [124]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00D515D8]
-{
-[-1]  = 18472332385978890           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472332229741483           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [126]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00CF15D8]
-{
-[-1]  = 18472332385978890           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [109]     <<POISON>>
-[ 2]  = [109]     <<POISON>>
-[ 3]  = [109]     <<POISON>>
-[ 4]  = [109]     <<POISON>>
-[ 5]  = [109]     <<POISON>>
-[ 6]  = [109]     <<POISON>>
-[ 7]  = [109]     <<POISON>>
-[ 8]  = [109]     <<POISON>>
-[ 9]  = [109]     <<POISON>>
-[10]  = 18472332229741483           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [126]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [009415D8]
-{
-[-1]  = 723401728380766730           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = 12192683           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [124]
-
-YOUR STACK: stack_t &stk1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [008615D8]
-{
-[-1]  = a0a0a0a0a0a0a0a           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [12] : <!!Smth is trying to damage your stack!!> in file: <main.cpp> in function: <stack_init()> in line: [61]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00DC15D8]
-{
-[-1]  = ba0bab           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [12] : <!!Smth is trying to damage your stack!!> in file: <main.cpp> in function: <stack_init()> in line: [64]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00C515D8]
-{
-[-1]  = ba0bab           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [12] : <!!Smth is trying to damage your stack!!> in file: <main.cpp> in function: <stack_init()> in line: [64]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [0]
-&data = [00D615D8]
-{
-[-1]  = ba0bab           <<CANARY>>
-[ 0]  = [0]
-[ 1]  = [0]
-[ 2]  = [0]
-[ 3]  = [0]
-[ 4]  = [0]
-[ 5]  = [0]
-[ 6]  = [0]
-[ 7]  = [0]
-[ 8]  = [0]
-[ 9]  = [0]
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00D515D8]
-{
-[-1]  = a0a0a0a0a0a0a0a           <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00D315D8]
-{
-[-1]  = a0a0a0a0a0a0a0a <<CANARY>>          
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab           <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00D115D8]
-{
-[-1]  = a0a0a0a0a0a0a0a <<CANARY>>                    
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab <<CANARY>>                    
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00D115D8]
-{
-[-1]  =      a0a0a0a0a0a0a0a <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  =               ba0bab <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-&data = [00DE15D8]
-{
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab               <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-data = [00C015D8]
-{
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab               <<CANARY>>
-}
-
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
-
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
-capacity = [10]
-size = [1]
-data = [00C815D8]
+data = [00B915D8]
 structure_canary_left  = [deadbeef]
 structure_canary_right = [deadbeef]
+stack HASH = [0]
 {
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
-[ 0]  = [105]
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
 [ 1]  = [1.#QNAN]     <<POISON>>
 [ 2]  = [1.#QNAN]     <<POISON>>
 [ 3]  = [1.#QNAN]     <<POISON>>
@@ -903,41 +34,849 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-structure_canary_left  = [a0041a0dc]
-structure_canary_right = [41a0700041a3a4]
-{
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
-[ 0]  = [105]
-[ 1]  = [1.#QNAN]     <<POISON>>
-[ 2]  = [1.#QNAN]     <<POISON>>
-[ 3]  = [1.#QNAN]     <<POISON>>
-[ 4]  = [1.#QNAN]     <<POISON>>
-[ 5]  = [1.#QNAN]     <<POISON>>
-[ 6]  = [1.#QNAN]     <<POISON>>
-[ 7]  = [1.#QNAN]     <<POISON>>
-[ 8]  = [1.#QNAN]     <<POISON>>
-[ 9]  = [1.#QNAN]     <<POISON>>
-[10]  = ba0bab               <<CANARY>>
-}
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
 
-*************************
-END OF OUR MESSAGE
-*************************
-
-
-*************************
-MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
-*************************
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00BE15D8]
 structure_canary_left  = [deadbeef]
 structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
 {
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
 
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C015D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00BB15D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C015D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00B615D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C215D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00D215D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c63519b29fb1b8]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C715D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c635198e53459f]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00E015D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00BC15D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [007915D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00D515D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00DA15D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00D415D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C915D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00C415D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [64fde800000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00CF15D0]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [64fde800000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00D515D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [64fde800000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00BD15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [64fde800000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00CC15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [009715D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [009715D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [100000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC8] created by main():
+capacity = [10]
+size = [0]
+data = [00BD15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [77c6351900000000]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00D515D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00C115D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [12] : <stack hash error -> !!Smth is trying to damage your stack!!> in function: <stack_push()> in file: <main.cpp>:100
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00CF15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [1.#QNAN]     <<POISON>>
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [8] : <CU-CU-CU Something wrong with your left structure canary protection> in function: <stack_pop()> in file: <main.cpp>:115
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
 capacity = [10]
 size = [1]
-data = [00BB15D8]
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
+data = [00D115D8]
+structure_canary_left  = [a0a0a0a0a0a0a0a]
+structure_canary_right = [deadbeef]
+stack HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
 [ 0]  = [105]
 [ 1]  = [1.#QNAN]     <<POISON>>
 [ 2]  = [1.#QNAN]     <<POISON>>
@@ -959,16 +898,248 @@ END OF OUR MESSAGE
 *************************
 MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
 *************************
-Error code: [10] : <CU-CU-CU Something wrong with your left stack canary protection> in file: <main.cpp> in function: <stack_pop()> in line: [115]
+Error code: [8] : <CU-CU-CU Something wrong with your left structure canary protection> in function: <stack_pop()> in file: <main.cpp>:115
 
-YOUR STACK: stack_t &stack1 = [0064FED0] created by main():
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
 capacity = [10]
 size = [1]
-data = [008C15D8]
+data = [00D915D8]
+structure_canary_left  = [a0a0a0a0a0a0a0a]
+structure_canary_right = [deadbeef]
+stack     HASH = [1]
+structure HASH = [1]{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [105]
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [8] : <CU-CU-CU Something wrong with your left structure canary protection> in function: <stack_pop()> in file: <main.cpp>:115
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [1]
+data = [00D215D8]
+structure_canary_left  = [a0a0a0a0a0a0a0a]
+structure_canary_right = [deadbeef]
+stack     HASH = [1]
+structure HASH = [1]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [105]
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00CD15D8]
 structure_canary_left  = [deadbeef]
 structure_canary_right = [deadbeef]
+stack     HASH = [0]
+structure HASH = [0]
 {
-[-1]  = a0a0a0a0a0a0a0a      <<CANARY>>
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00C115D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack     HASH = [0]
+structure HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00CD15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack     HASH = [0]
+structure HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_init()> in file: <main.cpp>:64
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [0]
+data = [00BF15D8]
+structure_canary_left  = [deadbeef]
+structure_canary_right = [deadbeef]
+stack     HASH = [0]
+structure HASH = [0]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [0]
+[ 1]  = [0]
+[ 2]  = [0]
+[ 3]  = [0]
+[ 4]  = [0]
+[ 5]  = [0]
+[ 6]  = [0]
+[ 7]  = [0]
+[ 8]  = [0]
+[ 9]  = [0]
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_pop()> in file: <main.cpp>:115
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [1]
+data = [008815D8]
+structure_canary_left  = [a0a0a0a0a0a0a0a]
+structure_canary_right = [deadbeef]
+stack     HASH = [b0af0288d3e5ad4e]
+structure HASH = [6390242685]
+{
+[-1]  = ba0bab               <<CANARY>>
+[ 0]  = [105]
+[ 1]  = [1.#QNAN]     <<POISON>>
+[ 2]  = [1.#QNAN]     <<POISON>>
+[ 3]  = [1.#QNAN]     <<POISON>>
+[ 4]  = [1.#QNAN]     <<POISON>>
+[ 5]  = [1.#QNAN]     <<POISON>>
+[ 6]  = [1.#QNAN]     <<POISON>>
+[ 7]  = [1.#QNAN]     <<POISON>>
+[ 8]  = [1.#QNAN]     <<POISON>>
+[ 9]  = [1.#QNAN]     <<POISON>>
+[10]  = ba0bab               <<CANARY>>
+}
+
+*************************
+END OF OUR MESSAGE
+*************************
+
+
+*************************
+MEET ERROR IN YOUR PROGRAMM READ ALL INFORMATION DOWN
+*************************
+Error code: [13] : <structure hash error -> !!Smth is trying to damage your stack!!> in function: <stack_pop()> in file: <main.cpp>:116
+
+YOUR STACK: stack_t &stack1 = [0064FEC0] created by main():
+capacity = [10]
+size = [1]
+data = [008715D8]
+structure_canary_left  = [a0a0a0a0a0a0a0a]
+structure_canary_right = [deadbeef]
+stack     HASH = [b0af0288d3e5ad4e]
+structure HASH = [6390242685]
+{
+[-1]  = ba0bab               <<CANARY>>
 [ 0]  = [105]
 [ 1]  = [1.#QNAN]     <<POISON>>
 [ 2]  = [1.#QNAN]     <<POISON>>

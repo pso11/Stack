@@ -96,6 +96,7 @@ error_t stack_push(struct stack_t* stk, double value)
         FILL_DBG(stack_error_status);
         return stack_error_status;
     }
+    HASH_PROTECTION(stk);
 
     STACK_VERYFICATION(stk);
 
@@ -125,6 +126,7 @@ error_t stack_pop(struct stack_t* stk)
         FILL_DBG(stack_error_status);
         return stack_error_status;
     }
+    HASH_PROTECTION(stk);
 
     STACK_VERYFICATION(stk);
 
@@ -139,14 +141,23 @@ error_t stack_veryficator(struct stack_t* stk)
         return NO_STACK_INITTED;
 
     #ifdef STACK_DEBUG
-    if (hash((unsigned char*)(stk -> data)+ sizeof(unsigned long long), (stk -> capacity)*sizeof(stack_elem_t)) != stk -> stack_hash)
+    if (hash((unsigned char*)(stk -> data + CANARY_SIZE), (stk -> capacity) * sizeof(stack_elem_t)) != stk -> stack_hash)
         return INVALID_STACK_HASH;
 
-    size_t structure_hash = stk -> structure_hash;
+    unsigned long long structure_hash = stk -> structure_hash;
+    unsigned long long stack_hash     = stk -> stack_hash;
     stk -> structure_hash = 0;
     stk -> stack_hash     = 0;
+
     if (hash((unsigned char*)stk, sizeof(stk)) != structure_hash)
+    {
+        stk -> stack_hash = stack_hash;
+        stk -> structure_hash = structure_hash;
         return INVALID_STRUCTURE_HASH;
+    }
+
+    stk -> stack_hash = stack_hash;
+    stk -> structure_hash = structure_hash;
 
     if (stk -> structure_canary_left != structure_canary_left)
         return INVALID_LEFT_STRUCTURE_CANARY;
@@ -173,8 +184,6 @@ error_t stack_veryficator(struct stack_t* stk)
     else if (stk -> capacity <= stk -> size)
         return WRONG_SIZE;
 
-
-
     return stack_error_status;
 }
 
@@ -192,16 +201,10 @@ error_t resize_up(struct stack_t* stk)
             stk -> data = temp;
             for (int i = stk -> size + 1; i < stk -> capacity; i++)
                 (stk -> data + CANARY_SIZE)[i] = POISON;
-
-            HASH_PROTECTION(stk);
         }
         else
             return NULL_POINTER_FROM_CALLOC;
     }
-    stk -> stack_hash     = hash(((unsigned char *)stk -> data) + sizeof(unsigned long long), (stk -> capacity) * sizeof(stack_elem_t));
-    size_t hah = 1;
-    printf("<%llu> <%llu>\n", stk -> stack_hash, hah);
-
 
     return stack_error_status;
 
@@ -217,10 +220,7 @@ error_t resize_down(struct stack_t* stk)
 
         stack_elem_t* temp = (stack_elem_t*)realloc(stk -> data, sizeof(stack_elem_t) * (stk -> capacity + 2 * CANARY_SIZE));
         if (temp != NULL)
-        {
             stk -> data = temp;
-            HASH_PROTECTION(stk);
-        }
         else
             return NULL_POINTER_FROM_CALLOC;
     }
@@ -303,10 +303,11 @@ void stack_dump(const struct stack_t* stk)
                   "data = [%p]\n"
                   "structure_canary_left  = [%llx]\n"
                   "structure_canary_right = [%llx]\n"
-                  "stack HASH = [%llx]\n{\n",
+                  "stack     HASH = [%llx]\n"
+                  "structure HASH = [%llu]\n{\n",
                    dump_file.error_code, array[structure].description, dump_file.function, dump_file.file,
                    dump_file.line, dump_file.val_name, stk, dump_file.birth_function, stk -> capacity, stk -> size, stk -> data,
-                   stk -> structure_canary_left, stk -> structure_canary_right, stk -> stack_hash);
+                   stk -> structure_canary_left, stk -> structure_canary_right, stk -> stack_hash, stk -> structure_hash);
     fflush(file);
 
     fprintf(file, "[%2d]  = %-20llx %s\n", -1, *(stk -> data), "<<CANARY>>");
@@ -367,12 +368,11 @@ void fwrite_stars(size_t number, FILE* file)
         fputc('*', file);
 }
 
-size_t hash(unsigned char* data, size_t capacity)
+unsigned long long hash(unsigned char* data, int capacity)
 {
-    return 1;
-    size_t hash = 5381;
+    unsigned long long hash = 5381;
 
-    for (size_t i = 0; i < capacity; i++)
+    for (int i = 0; i < capacity; i++)
     {
         hash = ((hash << 5) + hash) + data[i];
     }

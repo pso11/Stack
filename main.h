@@ -30,7 +30,7 @@ enum error_t
 
 #ifdef STACK_DEBUG
     void stack_dump(const struct stack_t* stk);
-    size_t hash(unsigned char* data, size_t capacity);
+    unsigned long long hash(unsigned char* data, int capacity);
 
     struct source_location         \
     {                              \
@@ -65,7 +65,7 @@ enum error_t
             stk -> structure_hash = 0;                                                                \
             stk -> stack_hash = 0;                                                                    \
             stk -> structure_hash = hash((unsigned char*)stk, sizeof(stk));                           \
-            stk -> stack_hash     = hash(((unsigned char *)stk -> data) + sizeof(unsigned long long), (stk -> capacity) * sizeof(stack_elem_t));
+            stk -> stack_hash     = hash((unsigned char*)(stk -> data + CANARY_SIZE), (stk -> capacity) * sizeof(stack_elem_t))
 
     #define CANARY_PROTECTION(stk)                                                                       \
             *((unsigned long long*)stk -> data)  = stk -> stack_canary;                                  \
@@ -114,8 +114,8 @@ struct stack_t
     int size;
 
     #ifdef STACK_DEBUG
-    size_t stack_hash;
-    size_t structure_hash;
+    unsigned long long stack_hash;
+    unsigned long long structure_hash;
     unsigned long long stack_canary = 0xBA0BAB;
     unsigned long long structure_canary_right = 0xDEADBEEF;
     #endif
