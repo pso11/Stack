@@ -2,12 +2,12 @@
         typedef double stack_elem_t;
         #define SPECIFICATOR "%lg"
         #define POISON    NAN
-        #define CHECK_VALUES_IF_POISON() isnan((float)(stk -> data[size]))
+        #define CHECK_VALUES_IF_POISON() isnan((float)((stk -> data + sizeof(unsigned long long) / sizeof(stack_elem_t))[size]))
 #elif STACK_USE_INT
         typedef int stack_elem_t;
         #define SPECIFICATOR "%d"
-        #define POISON    10928    //валентный угол алкана
-        #define CHECK_VALUES_IF_POISON() stk -> data[size] == POISON
+        #define POISON    109    //валентный угол алкана
+        #define CHECK_VALUES_IF_POISON() (stk -> data + sizeof(unsigned long long) / sizeof(stack_elem_t))[size] == POISON
 #endif
 
 enum error_t
@@ -54,7 +54,7 @@ enum error_t
             }
 
     #define FILL_DBG(error)       \
-        dump_file.line       = __LINE__ - 2; \
+        dump_file.line       = __LINE__ - 3; \
         dump_file.file       = __FILE__;     \
         dump_file.function   = __FUNCTION__; \
         dump_file.error_code = error
@@ -77,7 +77,8 @@ struct stack_t
     stack_elem_t* data;
     int capacity;
     int size;
-    stack_elem_t stack_canary = 0xBA0BAB;
+    size_t
+    unsigned long long stack_canary = 0xBA0BAB;
     unsigned long long structure_canary_right = 0xDEADBEEF;
 };
 
