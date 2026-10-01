@@ -24,12 +24,13 @@ enum error_t
     INVALID_RIGHT_STRUCTURE_CANARY = 9,
     INVALID_LEFT_STACK_CANARY      = 10,
     INVALID_RIGHT_STACK_CANARY     = 11,
-    INVALID_HASH                   = 12
-
+    INVALID_STACK_HASH             = 12,
+    INVALID_STRUCTURE_HASH         = 13
 };
 
 #ifdef STACK_DEBUG
     void stack_dump(const struct stack_t* stk);
+    size_t hash(unsigned char* data, size_t capacity);
 
     struct source_location         \
     {                              \
@@ -60,15 +61,21 @@ enum error_t
         dump_file.function   = __FUNCTION__; \
         dump_file.error_code = error
 
-    #define STACK_PROTECTION()\
-            stk -> hash = hash((unsigned char*)(stk -> data + sizeof(unsigned long long) / sizeof(stack_elem_t)), stk -> capacity);\
-            *((unsigned long long*)stk -> data)  = stk -> stack_canary;\
-            *((unsigned long long*)(stk -> data + stk -> capacity + (sizeof(unsigned long long) / sizeof(stack_elem_t))))  = stk -> stack_canary\
+    #define HASH_PROTECTION(stk)                                                                      \
+            stk -> structure_hash = 0;                                                                \
+            stk -> stack_hash = 0;                                                                    \
+            stk -> structure_hash = hash((unsigned char*)stk, sizeof(stk));                           \
+            stk -> stack_hash     = hash(((unsigned char *)stk -> data) + sizeof(unsigned long long), (stk -> capacity) * sizeof(stack_elem_t));
+
+    #define CANARY_PROTECTION(stk)                                                                       \
+            *((unsigned long long*)stk -> data)  = stk -> stack_canary;                                  \
+            *((unsigned long long*)(stk -> data + stk -> capacity + CANARY_SIZE))  = stk -> stack_canary
 
     #define CANARY_SIZE sizeof(unsigned long long) / sizeof(stack_elem_t)
 #else
     #define CANARY_SIZE 0
-    #define STACK_PROTECTION(stk);
+    #define CANARY_PROTECTION(stk);
+    #define HASH_PROTECTION(stk)  ;
     #define FILL_BIRTH_FUNCTION() ;
     #define FILL_DBG(error) ;
     #define ASSERT_STACK(stk, stack_error_status)                                   \
@@ -98,19 +105,26 @@ struct error
 
 struct stack_t
 {
+    #ifdef STACK_DEBUG
     unsigned long long structure_canary_left = 0xDEADBEEF;
+    #endif
+
     stack_elem_t* data;
     int capacity;
     int size;
-    size_t hash;
+
+    #ifdef STACK_DEBUG
+    size_t stack_hash;
+    size_t structure_hash;
     unsigned long long stack_canary = 0xBA0BAB;
     unsigned long long structure_canary_right = 0xDEADBEEF;
+    #endif
 };
 
 #define INCREMENT 2
 #define PART      0.25
 
-error_t stack_veryficator(const struct stack_t* stk);
+error_t stack_veryficator(struct stack_t* stk);
 error_t stack_init(struct stack_t* stk, size_t stack_size);
 error_t stack_destroy(struct stack_t* stk);
 error_t stack_push(struct stack_t* stk, double value);
@@ -120,4 +134,3 @@ error_t stack_pop(struct stack_t* stk);
 void imposter(void* array, int value, size_t bytes);
 void stack_print(const struct stack_t* stk);
 void fwrite_stars(size_t number, FILE* file);
-size_t hash(unsigned char* data, size_t capacity);
