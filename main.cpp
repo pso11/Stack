@@ -23,15 +23,23 @@ int main(void)
     struct stack_t stack1 = {};
     FILL_BIRTH_FUNCTION();
 
-    stack_error_status  = stack_init(&stack1, 10);
+    stack_error_status  = stack_init(&stack1, 1);
     ASSERT_STACK(&stack1, stack_error_status);
 
     stack_error_status  = stack_push(&stack1, 105);
     ASSERT_STACK(&stack1, stack_error_status);
-    imposter(&stack1, 10, 8);
 
+    imposter((unsigned char*)stack1.data + sizeof(size_t) + 10, 10, 8);
     stack_error_status  = stack_pop(&stack1);
     ASSERT_STACK(&stack1, stack_error_status);
+
+    //stack1.capacity = 20;
+    //for (int i = 0; i < 20; i++)
+    //{
+    //    stack_error_status  = stack_push(&stack1, 105);
+    //    ASSERT_STACK(&stack1, stack_error_status);
+    //    printf("%d %d\n", stack1.size, stack1.capacity);
+    //}
 
     stack_error_status  = stack_push(&stack1, 10);
     ASSERT_STACK(&stack1, stack_error_status);
@@ -55,12 +63,17 @@ error_t stack_init(struct stack_t* stk, size_t stack_size)
 {
     error_t stack_error_status = OK;
 
+    if (stk == NULL)
+        return NO_STACK_INITTED;
+
     stk -> data     = (stack_elem_t*)calloc(stack_size + CANARY_SIZE * 2, sizeof(stack_elem_t));
     stk -> capacity = stack_size;
     stk -> size     = 0;
 
     CANARY_PROTECTION(stk);
+
     HASH_PROTECTION(stk);
+
     STACK_VERYFICATION(stk);
 
     for (int size = 0; size < stk -> capacity; size++)
@@ -191,6 +204,9 @@ error_t resize_up(struct stack_t* stk)
 {
     error_t stack_error_status = OK;
 
+    if (stk == NULL)
+        return NO_STACK_INITTED;
+
     if (stk -> size + 1 == stk -> capacity)
     {
         stk -> capacity *= INCREMENT;
@@ -201,6 +217,7 @@ error_t resize_up(struct stack_t* stk)
             stk -> data = temp;
             for (int i = stk -> size + 1; i < stk -> capacity; i++)
                 (stk -> data + CANARY_SIZE)[i] = POISON;
+            CANARY_PROTECTION(stk);
         }
         else
             return NULL_POINTER_FROM_CALLOC;
@@ -214,13 +231,19 @@ error_t resize_down(struct stack_t* stk)
 {
     error_t stack_error_status = OK;
 
+    if (stk == NULL)
+        return NO_STACK_INITTED;
+
     if (((stk -> size) < PART * (stk -> capacity)) && (stk -> size != 0))
     {
         stk -> capacity = stk -> size + 1;
 
         stack_elem_t* temp = (stack_elem_t*)realloc(stk -> data, sizeof(stack_elem_t) * (stk -> capacity + 2 * CANARY_SIZE));
         if (temp != NULL)
+        {
             stk -> data = temp;
+            CANARY_PROTECTION(stk);
+        }
         else
             return NULL_POINTER_FROM_CALLOC;
     }
@@ -260,7 +283,6 @@ error_t stack_destroy(struct stack_t* stk)
 }
 
 #ifdef STACK_DEBUG
-
 void stack_dump(const struct stack_t* stk)
 {
     struct error array[] =
@@ -297,7 +319,7 @@ void stack_dump(const struct stack_t* stk)
         structure++;
     }
 
-    fprintf(file, "Error code: [%d] : <%s> in function: <%s()> in file: <%s>:%d\n\n"
+    fprintf(file, "Error code: [%d] : <%s> called in: <%s()>:%d in function: <%s> : <%s>:%d\n\n"
                   "YOUR STACK: stack_t %s = [%p] created by %s():\n"
                   "capacity = [%d]\nsize = [%d]\n"
                   "data = [%p]\n"
@@ -305,9 +327,10 @@ void stack_dump(const struct stack_t* stk)
                   "structure_canary_right = [%llx]\n"
                   "stack     HASH = [%llx]\n"
                   "structure HASH = [%llu]\n{\n",
-                   dump_file.error_code, array[structure].description, dump_file.function, dump_file.file,
-                   dump_file.line, dump_file.val_name, stk, dump_file.birth_function, stk -> capacity, stk -> size, stk -> data,
-                   stk -> structure_canary_left, stk -> structure_canary_right, stk -> stack_hash, stk -> structure_hash);
+                   dump_file.error_code, array[structure].description, dump_file.call_file, dump_file.call_line,
+                   dump_file.function, dump_file.file, dump_file.line, dump_file.val_name, stk, dump_file.birth_function,
+                   stk -> capacity, stk -> size, stk -> data, stk -> structure_canary_left,
+                   stk -> structure_canary_right, stk -> stack_hash, stk -> structure_hash);
     fflush(file);
 
     fprintf(file, "[%2d]  = %-20llx %s\n", -1, *(stk -> data), "<<CANARY>>");
@@ -346,7 +369,7 @@ void imposter(void* array, int value, size_t bytes)
 void stack_print(const struct stack_t* stk)
 {
     printf("\nPRINTING\nstack_t stk1 [%p] created by main(): \n"
-           "capacity = [%d]\nsize = [%d]                    \n"
+           "capacity = [%d]\nsize = [%d]                     \n"
            "data [%p]\n{                                     \n",
             stk, stk -> capacity, stk -> size, stk -> data);
 

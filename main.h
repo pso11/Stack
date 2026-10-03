@@ -37,6 +37,8 @@ enum error_t
         size_t line;               \
         const char* name;          \
         const char* file;          \
+        const char* call_file;     \
+        size_t call_line;          \
         const char* function;      \
         const char* birth_function;\
         const char* val_name;      \
@@ -49,6 +51,8 @@ enum error_t
     #define ASSERT_STACK(stk, stack_error_status) \
             if (stack_error_status)               \
             {                                     \
+                dump_file.call_file = __FILE__ ;  \
+                dump_file.call_line = __LINE__;   \
                 dump_file.val_name = #stk;        \
                 stack_dump(stk);                  \
                 stack_destroy(stk);               \
